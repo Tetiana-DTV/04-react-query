@@ -8,7 +8,7 @@ import MovieModal from '../MovieModal/MovieModal';
 import ReactPaginate from 'react-paginate';
 import css from './App.module.css';
 import type { Movie } from '../../types/movie';
-import { fetchMovies } from '../../services/movieServices';
+import { fetchMovies } from '../../service/movieService';
 import { Toaster, toast } from 'react-hot-toast';
 
 function App() {
